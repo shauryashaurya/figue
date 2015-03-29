@@ -4,6 +4,7 @@ While working on implementing clustering algorithms in JavaScript, I found this 
 Thanks to the original author (Jean-Yves Delort) of the library.
 
 What follows is a fascimile of the original wiki entry.
+
 ---
 
 #summary figue is a javascript package to cluster data and visualize clusters.
@@ -142,13 +143,13 @@ function load() {
 
 The previous code will display a page showing the following table (note: values may be different depending on the choice of initial centroids):
 
-|| Label﻿  ||Vector﻿  ||Cluster id﻿  ||Cluster centroid||
-||Microsoft﻿  ||91259,60420﻿  ||1﻿  ||91259,60420||
-||IBM﻿  ||400000,98787﻿  ||2﻿  ||400000,98787||
-||Skype﻿  ||700,716﻿  ||3﻿  ||9900,5280.666666666666||
-||SAP﻿  ||48000,11567﻿  ||0﻿  ||48000,11567||
-||Yahoo!﻿  ||14000,6426﻿  ||3﻿  ||9900,5280.666666666666||
-||eBay﻿  ||15000,8700﻿  ||3﻿  ||9900,5280.666666666666||
+|| Label        ||Vector        ||Cluster id    ||Cluster centroid||
+||Microsoft     ||91259,60420   ||1     ||91259,60420||
+||IBM   ||400000,98787  ||2     ||400000,98787||
+||Skype ||700,716       ||3     ||9900,5280.666666666666||
+||SAP   ||48000,11567   ||0     ||48000,11567||
+||Yahoo!        ||14000,6426    ||3     ||9900,5280.666666666666||
+||eBay  ||15000,8700    ||3     ||9900,5280.666666666666||
 
 
 = Hierarchical Clustering =
